@@ -1,0 +1,13 @@
+news_sites:
+  eluniversal:
+    url: http://www.eluniversal.com.mx
+    queries:
+      homepage_article_links: '.field-content a'
+      article_body: '.field-name-body'
+      article_title: '.Encabezado-Articulo h1' 
+  cnnespanol:
+    url: https://cnnespanol.cnn.com/
+    queries: 
+      homepage_article_links: '.news__title a'
+      article_body: '.storyfull__body'
+      article_title: '.storyfull__header h1'
